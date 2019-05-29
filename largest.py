@@ -1,12 +1,13 @@
-a = int(input())
-b = int(input())
-c = int(input())
-if(a > b):
-  if(a > c):
-    print(a)
+a,b,c = input().split()
+x = int(a)
+y = int(b)
+z = int(c)
+if(x > y):
+  if(x > z):
+    print(x)
   else:
-    print(c)
-elif(b > c):
-  print(b)
+    print(z)
+elif(y > z):
+  print(y)
 else:
-  print(c)
+  print(z)
