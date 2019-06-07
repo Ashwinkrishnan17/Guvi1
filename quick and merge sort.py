@@ -1,8 +1,8 @@
 n = int(input())
-a = input().split()
-b = []
+x = input().split()
+y = []
 for i in range(0,n):
-  b.append(int(a[i]))
-  c = sorted(b)
+  y.append(int(x[i]))
+  c = sorted(y)
 for j in c:
   print(j,end=" ")
