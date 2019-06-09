@@ -1,6 +1,7 @@
 a = input()
 count = 0
-if(a == " "):
-  count = count + 1
+for i in a:
+  if(i == " "):
+    count = count + 1
 counter = len(a) - count
 print(counter)
