@@ -1,5 +1,5 @@
 a = input()
-if(a.isalnum()):
+if(a.isalnum):
   print("Yes")
 else:
   print("No")
