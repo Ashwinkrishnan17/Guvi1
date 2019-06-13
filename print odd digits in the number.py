@@ -1,7 +1,7 @@
 a = input()
-b = []
+list = []
 for i in a:
-  b.append(int(i))
-for j in range(0,len(b)):
-  if(b[j] % 2 != 0):
-    print(b[j],end = " ")
+  list.append(int(i))
+for j in range(0,len(list)):
+  if(list[j] % 2 != 0):
+    print(list[j],end = " ")
