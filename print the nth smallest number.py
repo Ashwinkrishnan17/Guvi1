@@ -1,3 +1,3 @@
-a,b = map(int,input().split())
-c = input().split()
-print(c[b - 1])
+x,y = map(int,input().split())
+z = input().split()
+print(z[y - 1])
