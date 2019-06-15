@@ -1,6 +1,7 @@
 a,b = map(int,input().split())
-c = input().split()
-if(int(c[b]) % 2 == 0):
-  print(int(c[b - 1]))
-else:
-  print(int(c[b]))
+c = list(map(int,input().split()))
+list = []
+for i in c:
+  if(i % 2 != 0):
+    list.append(i)
+print(list[b - 1])
