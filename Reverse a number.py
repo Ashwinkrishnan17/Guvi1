@@ -1,2 +1,2 @@
-a = input()
-print(int(a[::-1]))
+x = input()
+print(int(x[::-1]))
