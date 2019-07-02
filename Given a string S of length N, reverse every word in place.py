@@ -1,3 +1,3 @@
-a = input().split()
-for i in a:
+S = input().split()
+for i in S:
   print(i[::-1],end = " ")
